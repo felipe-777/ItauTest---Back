@@ -40,7 +40,7 @@ Este projeto simula uma plataforma de controle de investimentos de renda variáv
 
    ```bash
    dotnet tool install --global dotnet-ef
-````
+```
 
 2. **Gerar e aplicar migrations (caso ainda não tenha a pasta `Migrations`)**
 
