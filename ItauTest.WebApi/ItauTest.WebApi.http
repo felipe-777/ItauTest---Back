@@ -1,0 +1,6 @@
+@ItauTest.WebApi_HostAddress = http://localhost:5007
+
+GET {{ItauTest.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

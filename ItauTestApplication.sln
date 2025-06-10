@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.WebApi", "ItauTest.WebApi\ItauTest.WebApi.csproj", "{674DB6C1-71CF-4E0A-9BCC-1B0984E67480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.Data", "ItauTest.Data\ItauTest.Data.csproj", "{8861F231-2FB1-4FB4-9736-81CB225A9A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.Models", "ItauTest.Models\ItauTest.Models.csproj", "{F7E56C24-1E59-403C-B7B9-09E69BFE1566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.Services", "ItauTest.Services\ItauTest.Services.csproj", "{C9C94A10-8028-4E0A-824B-8FDC5BC3991E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.Tests", "ItauTest.Tests\ItauTest.Tests.csproj", "{71F05CF8-C0D7-4BAD-9CDE-DDBF9383BC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.KafkaWorker", "ItauTest.KafkaWorker\ItauTest.KafkaWorker.csproj", "{C83F6152-24B0-4916-ABDB-5579A5C3EC0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItauTest.Interfaces", "ItauTest.Interfaces\ItauTest.Interfaces.csproj", "{CACDC44D-F06F-430B-99AC-17B23F7D5293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674DB6C1-71CF-4E0A-9BCC-1B0984E67480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674DB6C1-71CF-4E0A-9BCC-1B0984E67480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674DB6C1-71CF-4E0A-9BCC-1B0984E67480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674DB6C1-71CF-4E0A-9BCC-1B0984E67480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8861F231-2FB1-4FB4-9736-81CB225A9A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8861F231-2FB1-4FB4-9736-81CB225A9A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8861F231-2FB1-4FB4-9736-81CB225A9A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8861F231-2FB1-4FB4-9736-81CB225A9A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E56C24-1E59-403C-B7B9-09E69BFE1566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E56C24-1E59-403C-B7B9-09E69BFE1566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E56C24-1E59-403C-B7B9-09E69BFE1566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E56C24-1E59-403C-B7B9-09E69BFE1566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C94A10-8028-4E0A-824B-8FDC5BC3991E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C94A10-8028-4E0A-824B-8FDC5BC3991E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C94A10-8028-4E0A-824B-8FDC5BC3991E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C94A10-8028-4E0A-824B-8FDC5BC3991E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F05CF8-C0D7-4BAD-9CDE-DDBF9383BC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F05CF8-C0D7-4BAD-9CDE-DDBF9383BC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F05CF8-C0D7-4BAD-9CDE-DDBF9383BC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F05CF8-C0D7-4BAD-9CDE-DDBF9383BC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83F6152-24B0-4916-ABDB-5579A5C3EC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83F6152-24B0-4916-ABDB-5579A5C3EC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83F6152-24B0-4916-ABDB-5579A5C3EC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83F6152-24B0-4916-ABDB-5579A5C3EC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACDC44D-F06F-430B-99AC-17B23F7D5293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACDC44D-F06F-430B-99AC-17B23F7D5293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACDC44D-F06F-430B-99AC-17B23F7D5293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACDC44D-F06F-430B-99AC-17B23F7D5293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06CC549-6EF2-40B1-A2CE-9D8123AC0363}
+	EndGlobalSection
+EndGlobal

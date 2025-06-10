@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.13" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="Moq.EntityFrameworkCore" Version="8.0.1.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItauTest.Data\ItauTest.Data.csproj" />
+    <ProjectReference Include="..\ItauTest.Interfaces\ItauTest.Interfaces.csproj" />
+    <ProjectReference Include="..\ItauTest.KafkaWorker\ItauTest.KafkaWorker.csproj" />
+    <ProjectReference Include="..\ItauTest.Models\ItauTest.Models.csproj" />
+    <ProjectReference Include="..\ItauTest.Services\ItauTest.Services.csproj" />
+  </ItemGroup>
+
+</Project>
